@@ -52,7 +52,7 @@ To run this project locally, follow these steps:
    ```bash
    npm install
    
-5. Run the development server:
+5. Run the vite (forntend) server:
 
    ```bash
    npm run dev
@@ -61,10 +61,23 @@ To run this project locally, follow these steps:
 7. Now navigate back to the project directory:
    ```bash
    cd organic-farm
-   
-8.  Navigate to the server directory:
+
+8. Navigate to the server directory:
    ```bash
    cd server
+  
+9. Install dependencies:
+
+   ```bash
+   npm install
+
+1. Run the backend server:
+
+   ```bash
+   npm run dev
+
+
+
 
 ## Tech Stack Used
 
