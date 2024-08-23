@@ -43,17 +43,28 @@ To run this project locally, follow these steps:
    ```bash
    cd organic-farm
 
-3. Install dependencies:
+3. Navigate to the client directory:
+   ```bash
+   cd client
+
+4. Install dependencies:
 
    ```bash
-   npm 
+   npm install
    
-4. Run the development server:
+5. Run the development server:
 
    ```bash
    npm run dev
 
-5. Open http://localhost:5173 to view it in your browser.
+6. Open http://localhost:5173 to view it in your browser.  
+7. Now navigate back to the project directory:
+   ```bash
+   cd organic-farm
+   
+8.  Navigate to the server directory:
+   ```bash
+   cd server
 
 ## Tech Stack Used
 
