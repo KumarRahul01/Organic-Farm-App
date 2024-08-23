@@ -77,8 +77,6 @@ To run this project locally, follow these steps:
    npm run dev
 
 
-
-
 ## Tech Stack Used
 
 - **Frontend**: React.js, Tailwind CSS
@@ -99,6 +97,9 @@ To run this project locally, follow these steps:
 
 ## Screenshots
 
+[[Home Screen](https://drive.google.com/file/d/1K71D8YT5YOfznikNhWB5MXtbTudkosI3/view?usp=drive_link)]
+[[Product Screen](https://drive.google.com/file/d/1wTmHnehlDldZeH9sCo-M2X2tci-pcXHv/view?usp=drive_link)]
+[[Cart Screen](https://drive.google.com/file/d/1VtChiqtiGdQOwemcwmil_nYycIJ09FJw/view?usp=drive_link)]
 
 
 ## Video Demo
