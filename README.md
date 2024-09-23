@@ -43,17 +43,39 @@ To run this project locally, follow these steps:
    ```bash
    cd organic-farm
 
-3. Install dependencies:
+3. Navigate to the client directory:
+   ```bash
+   cd client
+
+4. Install dependencies:
 
    ```bash
-   npm 
+   npm install
    
-4. Run the development server:
+5. Run the vite (forntend) server:
 
    ```bash
    npm run dev
 
-5. Open http://localhost:5173 to view it in your browser.
+6. Open http://localhost:5173 to view it in your browser.  
+7. Now navigate back to the project directory:
+   ```bash
+   cd organic-farm
+
+8. Navigate to the server directory:
+   ```bash
+   cd server
+  
+9. Install dependencies:
+
+   ```bash
+   npm install
+
+1. Run the backend server:
+
+   ```bash
+   npm run dev
+
 
 ## Tech Stack Used
 
@@ -75,6 +97,9 @@ To run this project locally, follow these steps:
 
 ## Screenshots
 
+[[Home Screen](https://drive.google.com/file/d/1K71D8YT5YOfznikNhWB5MXtbTudkosI3/view?usp=drive_link)]
+[[Product Screen](https://drive.google.com/file/d/1wTmHnehlDldZeH9sCo-M2X2tci-pcXHv/view?usp=drive_link)]
+[[Cart Screen](https://drive.google.com/file/d/1VtChiqtiGdQOwemcwmil_nYycIJ09FJw/view?usp=drive_link)]
 
 
 ## Video Demo

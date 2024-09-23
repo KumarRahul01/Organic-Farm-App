@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+:root {
+  --primay-color: #22c55e;
+  --light-primary-color: #0f853a;
+  --light-gray: #cccccc;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--light-gray);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primay-color);
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--light-primary-color);
+}
+
+.logo {
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.numFont{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider-open {
+  animation: slider-open 0.5s ease alternate;
+}
+
+/* custom arrow */
+
+.arrow:before {
+  content: "👉";
+  padding-right: 5px;
+}
+
+
+
+@keyframes slider-open {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
